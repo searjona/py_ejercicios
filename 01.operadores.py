@@ -4,7 +4,7 @@ not_operation: bool = "hola" not in "hola mundo"
 print(in_operation)
 print(not_operation)
 
-# OPERADORES DE IDENTIDAD
+# OPERADORES DE IDENTIDAD 
 x = 1
 y = x
 nulo = None
