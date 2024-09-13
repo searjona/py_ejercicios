@@ -42,3 +42,12 @@ print(cars)
 # Eliminar la lista completa
 cars.clear()
 print(cars)
+
+# Borrar todos los elementos repetidos en una lista
+fruits: list = ['Apple', 'Banana', 'Orange', 'Strawberry', 'Orange']
+while 'Orange' in fruits:
+   fruits.remove('Orange')
+print(fruits)
+
+# Ordenar listas
+
