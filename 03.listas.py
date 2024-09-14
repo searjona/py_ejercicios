@@ -49,5 +49,18 @@ while 'Orange' in fruits:
    fruits.remove('Orange')
 print(fruits)
 
-# Ordenar listas
+# Ordenar listas orden ascendente
+vocales: list = ['e','u','a','o','i']
+vocales.sort()
+print(vocales)
 
+# Ordenar listas en orden descendente
+vocales.reverse()
+#vocales.sort(reverse=True) otra forma
+print(vocales)
+
+# Acceder a ciertos rangos por slices
+numeros: list = [10, 20, 30, 40, 50]
+# Los slices devuelven una lista tambien el rango lo toma desde el primer indice que se indique y el ultimo -1
+rango: list = numeros[0:3]
+print(rango)
